@@ -8,8 +8,6 @@ def sonsil(line, lis):
     for i in range(12):
         result += ((line[0]*(5+5*i) + line[1]- lis[i])**2) / 12
     return result
-
-
 # 최적화 함수
 def choijukhwa(lis, mval, yval, kval, a):
     if a==0:
